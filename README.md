@@ -57,10 +57,6 @@ A drill-through page that displays product-level sales, profit, margin, quantity
 
 ![Product Detail](images/product_detail.png)
 
-### Automated Refresh Schedule
-
-![Refresh Schedule](images/refresh_schedule.png)
-
 ## Automated Refresh Schedule
 
 The Power BI semantic model is connected to `Superstore.xlsx` in OneDrive and refreshes automatically every day.
@@ -71,5 +67,7 @@ Time: 9:00 AM
 Time Zone: UTC+05:30 Sri Jayawardenepura
 Failure Notification: Enabled
 ```
+
+![Refresh Schedule](images/refresh_schedule.png)
 
 After each successful refresh, the published report displays the latest data without reopening or republishing the Power BI Desktop file.
