@@ -43,6 +43,20 @@ A drill-through page that displays product-level sales, profit, margin, quantity
 - Cloud data source stored in OneDrive
 - Automated daily refresh and reporting
 
+## Dashboard Screenshots
+
+### Executive Overview
+
+![Executive Overview](images/executive_overview.png)
+
+### Detailed Analysis
+
+![Detailed Analysis](images/detailed_analysis.png)
+
+### Product Detail
+
+![Product Detail](images/product_detail.png)
+
 ## Automated Refresh Schedule
 
 The Power BI semantic model is connected to `Superstore.xlsx` in OneDrive and refreshes automatically every day.
