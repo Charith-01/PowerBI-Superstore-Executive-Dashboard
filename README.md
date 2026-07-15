@@ -1,45 +1,56 @@
 # Superstore Executive Dashboard
 
-## Project Overview
+## Overview
 
-This project focuses on creating an executive-level Power BI dashboard using the Superstore Sales dataset. The dashboard is designed to provide leadership with clear business insights related to sales performance, profitability, customer segments, product categories, and regional performance.
+This project is an executive-level Power BI dashboard created using the Sample Superstore dataset. It provides leadership with a clear view of sales, profit, orders, product performance, customer segments, and regional performance.
 
-The main goal of this project is to help decision-makers quickly understand business performance, identify key trends, and explore detailed insights using interactive drill-down features.
+## Key KPIs
 
-## Business Objective
+- Total Sales
+- Total Profit
+- Profit Margin
+- Total Orders
+- Total Quantity
+- Average Discount
 
-The objective of this dashboard is to provide leadership with key business metrics in a simple, high-level, and interactive format. The dashboard supports executive decision-making by showing important KPIs such as total sales, total profit, profit margin, total orders, quantity sold, average discount, regional performance, and product category performance.
+## Dashboard Pages
 
-## Dataset
+### 1. Executive Overview
+Displays high-level KPIs, sales trends, regional performance, category performance, and customer segment analysis.
 
-The dataset used for this project is the Sample Superstore dataset. It contains order-level sales data including order dates, customer details, product categories, regions, sales, quantity, discount, and profit.
+### 2. Detailed Analysis
+Provides deeper analysis using product and regional hierarchies, Top 10 product visuals, filters, and drill-down features.
 
-## Tools and Technologies
+### 3. Product Detail
+A drill-through page that displays product-level sales, profit, margin, quantity, and monthly performance.
+
+## Tools Used
 
 - Microsoft Power BI Desktop
 - Power Query
 - DAX
 - Power BI Service
-- CSV dataset
-- GitHub
+- Microsoft OneDrive / SharePoint Online
+- Microsoft Excel
 
-## Key Dashboard Features
+## Main Features
 
-- Executive KPI cards
-- Sales and profit trend analysis
-- Regional performance analysis
-- Product category and sub-category analysis
-- Customer segment analysis
-- Drill-down and drill-through capabilities
-- Mobile-friendly dashboard layout
-- Automated refresh and reporting schedule
+- Interactive KPI cards, charts, slicers, and filters
+- Drill-down and drill-through analysis
+- Reset filters and page navigation buttons
+- Mobile-friendly layouts for all report pages
+- Published report in Power BI Service
+- Cloud data source stored in OneDrive
+- Automated daily refresh and reporting
 
-## Dashboard Pages
+## Automated Refresh Schedule
 
-1. Executive Overview
-2. Detailed Analysis
-3. Reporting and Mobile View
+The Power BI semantic model is connected to `Superstore.xlsx` in OneDrive and refreshes automatically every day.
 
-## Project Status
+```text
+Frequency: Daily
+Time: 9:00 AM
+Time Zone: UTC+05:30 Sri Jayawardenepura
+Failure Notification: Enabled
 
-Dataset selected and project repository setup started.
+After each successful refresh, the published report displays the latest data without reopening or republishing the Power BI Desktop file.
