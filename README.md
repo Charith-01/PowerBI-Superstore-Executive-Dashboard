@@ -59,11 +59,7 @@ A drill-through page that displays product-level sales, profit, margin, quantity
 
 ### Mobile View
 
-![Mobile View](images/mobile_view1.png)
-
-![Mobile View](images/mobile_view2.png)
-
-![Mobile View](images/mobile_view3.png)
+![Mobile View](images/mobile_view.png)
 
 ## Automated Refresh Schedule
 
