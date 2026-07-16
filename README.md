@@ -61,6 +61,8 @@ A drill-through page that displays product-level sales, profit, margin, quantity
 
 ![Mobile View](images/mobile_view.png)
 
+![Refresh History](images/refresh_history.png)
+
 ## Automated Refresh Schedule
 
 The Power BI semantic model is connected to `Superstore.xlsx` in OneDrive and refreshes automatically every day.
