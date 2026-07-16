@@ -74,6 +74,4 @@ Failure Notification: Enabled
 
 ![Refresh Schedule](images/refresh_schedule.png)
 
-![Refresh History](images/refresh_history.png)
-
 After each successful refresh, the published report displays the latest data without reopening or republishing the Power BI Desktop file.
